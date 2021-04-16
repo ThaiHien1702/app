@@ -1,0 +1,11 @@
+.float-btn{
+    float: right;
+    line-height: 10px;
+    margin-left: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ds-ib{
+    display: flex;
+}
