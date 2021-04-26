@@ -39,7 +39,7 @@ function Vocabuary() {
            const res = await axios.post('http://localhost:4000/post', {
                title
            })
-           const newPosts = [...vocaState, res.data]
+           const newPosts = [res.data, ...vocaState]
            setVocaState(newPosts)
        } catch (error) {
            console.log(error.message);
