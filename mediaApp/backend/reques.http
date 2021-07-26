@@ -1,0 +1,30 @@
+POST http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+    "fullname": "nguyen hien",
+    "username": "USER 02",
+    "email": "user02@gmail.com",
+    "password": "123456",
+    "gender": "male"
+}
+
+####
+GET  http://localhost:5000/api/refresh_token
+
+
+###
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "email": "user02@gmail.com",
+    "password": "123456"
+}
+### 
+POST http://localhost:5000/api/logout
+
+
+###
+POST http://localhost:5000/api/refresh_token
+ 

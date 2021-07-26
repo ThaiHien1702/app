@@ -21,6 +21,7 @@ function Vocabuary() {
             if (voca._id === id) voca.completed = !voca.completed
             return voca
         })
+        console.log(newVoca);
         setVocaState(newVoca)
     }
     const deleteVoca = async id => {
